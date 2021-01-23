@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="sty.css" rel="stylesheet" />
+    <title>Payment Form</title>
+</head>
+
+<form>
+    <h1 style="text-align: center" class="container"><u>Payment Form</u> </h1>
+    <hr>
+    <h2>User Information: </h2>
+    <label>Name: </label>
+    <input type="text" placeholder="Shivam Goel"><br><br>
+
+    <label>Gender: </label>
+    <input type="checkbox">Male
+    <input type="checkbox">Female
+    <input type="checkbox">Other
+    <br><br>
+
+    <fieldset>
+        <legend>Nationality</legend>
+
+        <input type="radio" id="Indian" name="Nationality">
+        <label for"Indian">Indian</label>
+        <input type="radio" id="other" name="Nationality">
+        <label for"other">Other</label>
+    </fieldset>
+    <br>
+
+    <label>Address: </label>
+    <textarea rows="10" cols="30" placeholder="Enter your Address"></textarea>
+    <br><br>
+
+    <label>Date of Birth: </label>
+    <input type="date">
+    <br><br>
+
+    <label>Email: </label>
+    <input type="email" placeholder="abc@gmail.com">
+    <br><br>
+
+    <label>Pincode: </label>
+    <input type="number" placeholder="123456">
+    <br><br>
+    <hr>
+    <h2>Payment Details: </h2>
+    <br>
+
+    <label>Card Type: </label>
+    <select>
+        <option>--Select Card Type--</option>
+        <option>Visa</option>
+        <option>Mastercard</option>
+        <option>Rupay</option>
+    </select>
+    <br><br>
+
+    <label>Card Number: </label>
+    <input type="number" placeholder="1111-2222-3333-4444">
+    <br><br>
+
+    <label>Expiration Date: </label>
+    <input type="date">
+    <br><br>
+
+    <label>CVV: </label>
+    <input type="number" placeholder="123">
+    <br><br>
+    <input type="submit" value="Pay Now">
+
+
+</form>
+
+
+<body>
+
+</body>
+
+</html>
